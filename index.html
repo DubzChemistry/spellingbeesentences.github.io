@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    <body>
+        <div id="banner">
+            <img id="bee" src="bee.png" alt="">
+            <h1 class="title">Spelling Bee: Sentence Edition</h1>
+            <h2 class="date">February 5, 2025</h2>
+            <h4 class="name">Edited by Kin Dowski</h5>
+        </div>
+        
+        <br>
+
+        <br>
+
+        <div class="row">
+            <div class="rules">
+                <h2 class="rulesTitle">How to Play:</h3>
+                <h3 style="font-weight: normal;">Create words using the provided letters</h3>
+                <li>Words must contain at least 4 letters.</li>
+                <li>Words must include the center letter.</li>
+                <li>Letters may be used more than once.</li>
+                <li>Every 10 words reveals part of the Daily Sentence.</li>
+                <li>Not all words in the Daily Sentence contain the center letter.</li>
+                <li>Daily Sentence word order will be scrambled.</li>
+                <li>Guess the Daily Sentence to win!</li>
+            </div>
+
+            <div class="letters">
+                <h2 >DAILY SENTENCE: _____  _____  _____  _____  _____</h2>
+                <form action=""; onsubmit="submitWord()">
+                    <label for="fname"></label>
+                    <input type="text" id="fname" name="submittedWord" placeholder="Your word..">
+                  
+                    <input type="submit" value="SUBMIT WORD">
+                  </form>
+                <img src="grid1.png" id="grid">
+            </div>
+
+            <div class="words">
+                <h2>Found Words:</h2>
+                <h3 id="foundWords"></h3>
+            </div>
+        </div>
+
+        <script src="funcodingstuff.js"></script>
+    </body>
+
+    </head>
+</html>
